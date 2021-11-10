@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAPRACTICAL">
         <activity
+            android:name=".prac5.Practical5_b"
+            android:exported="true" />
+        <activity
+            android:name=".prac5.Practical5"
+            android:exported="true" />
+        <activity
+            android:name=".prac10.Practical10"
+            android:exported="true" />
+        <activity
+            android:name=".prac4.Practical4"
+            android:exported="true" />
+        <activity
+            android:name=".prac3.Practical3"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
