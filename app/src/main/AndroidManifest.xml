@@ -2,6 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mapractical">
 
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,19 +15,43 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MAPRACTICAL">
         <activity
-            android:name=".prac5.Practical5_b"
+            android:name=".Practical12"
             android:exported="true" />
         <activity
-            android:name=".prac5.Practical5"
+            android:name=".Practical11"
             android:exported="true" />
         <activity
-            android:name=".prac10.Practical10"
+            android:name=".Practical10"
             android:exported="true" />
         <activity
-            android:name=".prac4.Practical4"
+            android:name=".Practical9"
             android:exported="true" />
         <activity
-            android:name=".prac3.Practical3"
+            android:name=".Practical8"
+            android:exported="true" />
+        <activity
+            android:name=".Practical7"
+            android:exported="true" />
+        <activity
+            android:name=".Practical6"
+            android:exported="true" />
+        <activity
+            android:name=".Practical5_ExplicitActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Practical5"
+            android:exported="true" />
+        <activity
+            android:name=".Practical4"
+            android:exported="true" />
+        <activity
+            android:name=".Practical3"
+            android:exported="true" />
+        <activity
+            android:name=".Practical2"
+            android:exported="true" />
+        <activity
+            android:name=".Practical1"
             android:exported="true" />
         <activity
             android:name=".MainActivity"
