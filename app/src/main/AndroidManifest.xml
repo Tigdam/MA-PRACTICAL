@@ -6,6 +6,11 @@
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.BLUETOOTH" />
     <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
 
     <application
         android:allowBackup="true"
@@ -14,6 +19,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MAPRACTICAL">
+        <activity
+            android:name=".JsonVolley"
+            android:exported="true" />
+        <activity
+            android:name=".gpslocation"
+            android:exported="true" />
+        <activity
+            android:name=".database"
+            android:exported="true" />
+        <activity
+            android:name=".Practical19"
+            android:exported="true" />
+        <activity
+            android:name=".Practical15"
+            android:exported="true" />
+        <activity
+            android:name=".Practical16"
+            android:exported="true" />
+        <activity
+            android:name=".Practical14"
+            android:exported="true" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="true" />
+        <activity
+            android:name=".Practical13"
+            android:exported="true" />
         <activity
             android:name=".Practical12"
             android:exported="true" />

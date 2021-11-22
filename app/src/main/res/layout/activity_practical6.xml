@@ -15,9 +15,6 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="16dp"
         tools:layout_editor_absoluteY="4dp" />
-
-
-
     <ImageView
         android:id="@+id/tree"
         android:layout_width="match_parent"

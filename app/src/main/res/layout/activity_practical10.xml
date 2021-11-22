@@ -9,8 +9,6 @@
     <TextView
         android:id="@+id/text"
         android:layout_width="362dp"
-        android:text="Nikhil Birje 06"
-        android:textSize="20dp"
         android:layout_height="65dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
@@ -19,7 +17,9 @@
         android:layout_marginEnd="29dp"
         android:layout_marginRight="29dp"
         android:ems="10"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:text="Nikhil Birje 06"
+        android:textSize="20dp" />
 
     <EditText
         android:id="@+id/txtcontent"
@@ -59,9 +59,9 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="43dp"
-        android:layout_marginLeft="43dp"
-        android:layout_marginBottom="59dp"
+        android:layout_marginStart="83dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginBottom="250dp"
         android:text="TextView" />
 
     <Button
